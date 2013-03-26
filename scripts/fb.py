@@ -40,7 +40,7 @@ def rankings_to_html(filename='rankings.html'):
             f.write(' style="text-decoration: line-through; color: #666;')
         else:
             f.write(' style="font-weight: bold;')
-        f.write('"><span style="width: 300px; display: inline-block;">'+player+'</span>')
+        f.write('"><span style="width: 300px; display: inline-block; text-decoration: inherit;">'+player+'</span>')
         f.write('</li>\n')
     f.write('</ol>')
     f.close()
