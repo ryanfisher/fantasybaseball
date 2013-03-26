@@ -9,8 +9,8 @@ def process_fantasy_rankings():
             rankings.append(row[0])
     return rankings[1:]
 
-def process_keeper_list():
-    with open('KeeperList.csv', 'rb') as csvfile:
+def process_team_list(filename='KeeperList.csv'):
+    with open(filename, 'rb') as csvfile:
         keeper_reader = csv.reader(csvfile, delimiter='\t')
         rows = []
         for row in keeper_reader:
@@ -22,16 +22,26 @@ def process_keeper_list():
 
 def keeper_list():
     keepers = []
-    l = process_keeper_list()
+    l = process_team_list('KeeperList.csv')
     for key in l:
         keepers.extend(l[key])
     return keepers
+
+def team_list():
+    players_taken = []
+    keepers = process_team_list('KeeperList.csv')
+    for key in keepers: players_taken.extend(keepers[key])
+    farm_players = process_team_list('FarmList.csv')
+    for key in farm_players: players_taken.extend(farm_players[key])
+    drafted = process_team_list('DraftedList.csv')
+    for key in drafted: players_taken.extend(drafted[key])
+    return players_taken
 
 def rankings_to_html(filename='rankings.html'):
     rankings = process_fantasy_rankings()
     f = open(filename, 'w')
     f.write('<ol>\n')
-    keepers = keeper_list()
+    keepers = team_list()
     count = 0
     for player in rankings:
         f.write('<li')
@@ -47,6 +57,4 @@ def rankings_to_html(filename='rankings.html'):
     print count
 
 if __name__ == '__main__':
-    process_keeper_list()
-    process_fantasy_rankings()
     rankings_to_html()
