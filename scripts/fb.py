@@ -20,6 +20,14 @@ def process_team_list(filename='KeeperList.csv'):
         teams[rows[0][team]] = [row[team] for row in rows][1:]
     return teams
 
+def projections_dict(filename='FanGraphsProjections.csv'):
+    with open(filename, 'rb') as csvfile:
+        projections_reader = csv.reader(csvfile, delimiter=',')
+        projections = {}
+        for row in projections_reader:
+            projections[row[0]] = row[1:]
+    return projections
+
 def keeper_list():
     keepers = []
     l = process_team_list('KeeperList.csv')
@@ -42,6 +50,8 @@ def rankings_to_html(filename='rankings.html'):
     f = open(filename, 'w')
     f.write('<ol>\n')
     keepers = team_list()
+    projections = projections_dict()
+    pitcher_projections = projections_dict('FanGraphsPitcherProjections.csv')
     count = 0
     for player in rankings:
         f.write('<li')
@@ -51,6 +61,13 @@ def rankings_to_html(filename='rankings.html'):
         else:
             f.write(' style="font-weight: bold;')
         f.write('"><span style="width: 300px; display: inline-block; text-decoration: inherit;">'+player+'</span>')
+        f.write('<span style="width: 100px; display: inline-block;">')
+        if player in projections: f.write(projections[player][17])
+        f.write("</span>")
+        f.write('<span style="width: 100px; display inline-block;">')
+        if player in pitcher_projections:
+            f.write(pitcher_projections[player][12])
+        f.write("</span>")
         f.write('</li>\n')
     f.write('</ol>')
     f.close()
