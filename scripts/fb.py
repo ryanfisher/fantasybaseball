@@ -82,5 +82,31 @@ def stat_list_for(team, stat):
     keepers = process_team_list()
     return [p[player][stat] for player in keepers[team] if player in p]
 
+def average(l):
+    return sum([float(i) for i in l]) / float(len(l))
+
+def averages():
+    keepers = process_team_list()
+    averages_dict = {}
+    for key in keepers:
+        averages_dict[key] = averages_for(key)
+    return averages_dict
+
+def averages_for(team):
+    ops_list = stat_list_for(team, 'OPS')
+    avg_list = stat_list_for(team, 'AVG')
+    hit_list = stat_list_for(team, 'H')
+    run_list = stat_list_for(team, 'R')
+    rbi_list = stat_list_for(team, 'RBI')
+    hr_list = stat_list_for(team, 'HR')
+    ab_list = stat_list_for(team, 'AB')
+    averages = {
+        'runs': average(run_list),
+        'hits': average(hit_list),
+        'rbi': average(rbi_list),
+        'hr': average(hr_list),
+    }
+    return averages
+
 if __name__ == '__main__':
     rankings_to_html()
