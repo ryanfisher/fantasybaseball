@@ -24,8 +24,12 @@ def projections_dict(filename='FanGraphsProjections.csv'):
     with open(filename, 'rb') as csvfile:
         projections_reader = csv.reader(csvfile, delimiter=',')
         projections = {}
+        stat_name = projections_reader.next()
         for row in projections_reader:
-            projections[row[0]] = row[1:]
+            stats = {}
+            for n in range(len(row)):
+                stats[stat_name[n]] = row[n]
+            projections[row[0]] = stats
     return projections
 
 def keeper_list():
