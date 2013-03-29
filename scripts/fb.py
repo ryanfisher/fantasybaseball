@@ -100,13 +100,39 @@ def averages_for(team):
     rbi_list = stat_list_for(team, 'RBI')
     hr_list = stat_list_for(team, 'HR')
     ab_list = stat_list_for(team, 'AB')
+    sb_list = stat_list_for(team, 'SB')
     averages = {
-        'runs': average(run_list),
-        'hits': average(hit_list),
-        'rbi': average(rbi_list),
-        'hr': average(hr_list),
+        'SB': average(sb_list),
+        'R': average(run_list),
+        'H': average(hit_list),
+        'RBI': average(rbi_list),
+        'HR': average(hr_list),
+        'AVG': average(hit_list)/average(ab_list),
+        'OPS': average(ops_list),
     }
     return averages
+
+def sorted_stat(averages, stat):
+    return sorted([(averages[key][stat], key) for key in averages])
+
+def update_team_ranks(team_values, sorted_list):
+    for n in range(len(sorted_list)):
+        manager = sorted_list[n][1]
+        team_values[manager] += n
+    return team_values
+
+def compute_ranks():
+    avgs = averages()
+    teams_dict = {}
+    for manager in avgs:
+        teams_dict[manager] = 0
+    teams_dict = update_team_ranks(teams_dict, sorted_stat(avgs, 'HR'))
+    teams_dict = update_team_ranks(teams_dict, sorted_stat(avgs, 'AVG'))
+    teams_dict = update_team_ranks(teams_dict, sorted_stat(avgs, 'R'))
+    teams_dict = update_team_ranks(teams_dict, sorted_stat(avgs, 'RBI'))
+    teams_dict = update_team_ranks(teams_dict, sorted_stat(avgs, 'OPS'))
+    teams_dict = update_team_ranks(teams_dict, sorted_stat(avgs, 'SB'))
+    return sorted([(teams_dict[manager], manager) for manager in teams_dict])
 
 if __name__ == '__main__':
     rankings_to_html()
