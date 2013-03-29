@@ -117,4 +117,4 @@ def compute_ranks():
     return sorted([(teams_dict[manager], manager) for manager in teams_dict])
 
 if __name__ == '__main__':
-    compute_ranks()
+    print compute_ranks()
