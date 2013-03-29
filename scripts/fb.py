@@ -77,5 +77,10 @@ def rankings_to_html(filename='rankings.html'):
     f.close()
     print count
 
+def stat_list_for(team, stat):
+    p = projections_dict()
+    keepers = process_team_list()
+    return [p[player][stat] for player in keepers[team] if player in p]
+
 if __name__ == '__main__':
     rankings_to_html()

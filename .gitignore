@@ -37,3 +37,6 @@ nosetests.xml
 
 # output files
 scripts/rankings.html
+
+# Vim files
+*.swp
