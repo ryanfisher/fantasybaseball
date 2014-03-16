@@ -1,5 +1,8 @@
 import csv
 
+TEAM_LIST = 'teamdata/2014/KeeperList.csv'
+PROJECTIONS = 'projections/2014/FanGraphsBatters.csv'
+
 def process_fantasy_rankings():
     rankings = []
     with open('fantasy_rankings.csv', 'rb') as csvfile:
@@ -9,7 +12,7 @@ def process_fantasy_rankings():
             rankings.append(row[0])
     return rankings[1:]
 
-def process_team_list(filename='KeeperList.csv'):
+def process_team_list(filename=TEAM_LIST):
     with open(filename, 'rb') as csvfile:
         keeper_reader = csv.reader(csvfile, delimiter='\t')
         rows = []
@@ -20,7 +23,7 @@ def process_team_list(filename='KeeperList.csv'):
         teams[rows[0][team]] = [row[team] for row in rows][1:]
     return teams
 
-def projections_dict(filename='FanGraphsProjections.csv'):
+def projections_dict(filename=PROJECTIONS):
     with open(filename, 'rb') as csvfile:
         projections_reader = csv.reader(csvfile, delimiter=',')
         projections = {}
@@ -34,14 +37,14 @@ def projections_dict(filename='FanGraphsProjections.csv'):
 
 def keeper_list():
     keepers = []
-    l = process_team_list('KeeperList.csv')
+    l = process_team_list(TEAM_LIST)
     for key in l:
         keepers.extend(l[key])
     return keepers
 
 def team_list():
     players_taken = []
-    keepers = process_team_list('KeeperList.csv')
+    keepers = process_team_list(TEAM_LIST)
     for key in keepers: players_taken.extend(keepers[key])
     farm_players = process_team_list('FarmList.csv')
     for key in farm_players: players_taken.extend(farm_players[key])
