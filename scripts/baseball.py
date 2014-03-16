@@ -1,5 +1,8 @@
 import csv
 
+DEFAULT_TEAMLIST = '../teamdata/2014/KeeperList.csv'
+DEFAULT_PROJECTIONS = '../projections/2014/FanGraphsBatters.csv'
+
 class Player:
     def __init__(self, **kwargs):
         self.name = kwargs.get('name', '')
@@ -12,24 +15,17 @@ class FantasyTeam:
         self.owner = kwargs.get('owner', '')
         self.players = kwargs.get('players', [])
 
-DEFAULT_TEAMLIST = '../teamdata/2014/KeeperList.csv'
-
 class FantasyLeague:
     def __init__(self, **kwargs):
         self.teams = kwargs.get('teams', {})
         self.csv = kwargs.get('csv', DEFAULT_TEAMLIST)
-        if self.teams == {}: self.process_teams()
+        if self.teams == {}: self.process_csv()
 
-    def process_teams(self):
+    def process_csv(self):
         with open(self.csv, 'rb') as csvfile:
-            keeper_reader = csv.reader(csvfile, delimiter='\t')
-            rows = []
-            for row in keeper_reader:
-                rows.append(row)
+            rows = [row for row in csv.reader(csvfile, delimiter='\t')]
         for team in range(10):
             self.teams[rows[0][team]] = [row[team] for row in rows][1:]
-
-DEFAULT_PROJECTIONS = '../projections/2014/FanGraphsBatters.csv'
 
 class Projections:
     def __init__(self, **kwargs):
