@@ -2,19 +2,32 @@ import csv
 
 class Player:
     def __init__(self, **kwargs):
-        self.name = kwargs['name']
-        self.position = kwargs['position']
-        self.aliases = kwargs['aliases']
+        self.name = kwargs.get('name', '')
+        self.position = kwargs.get('positions', [])
+        self.aliases = kwargs.get('aliases', [])
 
 class FantasyTeam:
     def __init__(self, **kwargs):
-        self.name = kwargs['name']
-        self.owner = kwargs['owner']
-        self.players = kwargs['players']
+        self.name = kwargs.get('name', '')
+        self.owner = kwargs.get('owner', '')
+        self.players = kwargs.get('players', [])
 
-class League:
+DEFAULT_TEAMLIST = '../teamdata/2014/KeeperList.csv'
+
+class FantasyLeague:
     def __init__(self, **kwargs):
-        self.teams = ['teams']
+        self.teams = kwargs.get('teams', {})
+        self.csv = kwargs.get('csv', DEFAULT_TEAMLIST)
+        if self.teams == {}: self.process_teams()
+
+    def process_teams(self):
+        with open(self.csv, 'rb') as csvfile:
+            keeper_reader = csv.reader(csvfile, delimiter='\t')
+            rows = []
+            for row in keeper_reader:
+                rows.append(row)
+        for team in range(10):
+            self.teams[rows[0][team]] = [row[team] for row in rows][1:]
 
 DEFAULT_PROJECTIONS = '../projections/2014/FanGraphsBatters.csv'
 
