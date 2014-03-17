@@ -24,6 +24,7 @@ class FantasyLeague:
         self.teams = kwargs.get('teams', {})
         self.csv = kwargs.get('csv', DEFAULT_TEAMLIST)
         if self.teams == {}: self.process_csv()
+        self.projections = Projections()
 
     def process_csv(self, csv_path=None):
         if not csv_path: csv_path = self.csv
@@ -41,18 +42,45 @@ class FantasyLeague:
                 self.teams[team] = players
 
     def stat_list_for(self, team, stat):
-        p = Projections()
-        player_projections = [player for player in self.teams[team] if p.exists(player)]
-        return [p.for_player(player)[stat] for player in player_projections]
+        p = self.projections
+        players = [player for player in self.teams[team] if p.exists(player)]
+        return [p.for_player(player)[stat] for player in players]
 
     def average(self, l):
         return sum([float(i) for i in l]) / float(len(l))
 
+    def int_sum(self, stats):
+        return sum([float(stat) for stat in stats])
+
     def averages_for(self, team):
         avg_values = {}
-        stats = ['SB','R','H','RBI','HR','AVG','OPS']
+        self.projections = Projections()
+        stats = ['SB','R','H','RBI','HR','AVG','OPS','AB']
+        stat_list = {}
         for stat in stats:
-            avg_values[stat] = self.average(self.stat_list_for(team, stat))
+            stat_list[stat] = self.stat_list_for(team, stat)
+        for stat in ['SB','R','H','RBI','HR']:
+            avg_values[stat] = self.average(stat_list[stat])
+        total_hits = sum([int(h) for h in stat_list['H']])
+        total_ab = sum([int(ab) for ab in stat_list['AB']])
+        avg_values['AVG'] = float(total_hits) / total_ab
+        # TODO Fix OPS value
+        avg_values['OPS'] = self.average(stat_list['OPS'])
+
+        stats = ['ER', 'WHIP', 'K/9', 'IP', 'W', 'L', 'BB', 'H']
+        self.projections = Projections(csv=DEFAULT_PITCHER_PROJECTIONS)
+        for stat in stats:
+            stat_list[stat] = self.stat_list_for(team,  stat)
+        for stat in ['W','L']:
+            avg_values[stat] = self.average(stat_list[stat])
+        total_er = self.int_sum(stat_list['ER'])
+        total_walks = self.int_sum(stat_list['BB'])
+        total_hits_allowed = self.int_sum(stat_list['H'])
+        total_ip = self.int_sum(stat_list['IP'])
+        avg_values['ERA'] = 9.0 * total_er / total_ip
+        avg_values['WHIP'] = (total_walks + total_hits_allowed) / float(total_ip)
+        # TODO Fix K/9 value
+        avg_values['K/9'] = self.average(stat_list['K/9'])
         return avg_values
 
     def averages(self):
