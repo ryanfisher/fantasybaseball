@@ -5,7 +5,7 @@ DEFAULT_PROJECTIONS = '../projections/2014/FanGraphsBatters.csv'
 DEFAULT_PITCHER_PROJECTIONS = '../projections/2014/FanGraphsPitchers.csv'
 DEFAULT_FARMLIST = '../teamdata/2014/FarmList.csv'
 DEFAULT_DRAFTEDLIST = '../teamdata/2014/DraftedList.csv'
-DEFAULT_RANKINGS = 'fantasy_rankings.csv'
+DEFAULT_RANKINGS = '../projections/2014/FantasyProsRankings.csv'
 
 class Player:
     def __init__(self, **kwargs):

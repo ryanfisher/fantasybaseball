@@ -1,0 +1,743 @@
+Player Name 	 Team 	 Position 	 ECR 	 Best Rank 	 Worst Rank 	 Ave Rank 	 Std Dev 	 ADP 	 			
+Mike Trout	LAA	OF	1	1	2	1.1	0.3	1		 		
+Miguel Cabrera	DET	3B	2	1	4	1.9	0.4	2	 			
+Paul Goldschmidt	ARI	1B	3	2	9	3.6	1.2	3	 			
+Andrew McCutchen	PIT	CF	4	3	14	4.5	1.8	4	 			
+Carlos Gonzalez	COL	LF	5	3	14	6.3	2.2	6	 			
+Clayton Kershaw	LAD	SP	6	3	21	8	3.9	5	 			
+Robinson Cano	SEA	2B	7	3	28	8.4	4.7	8	 			
+Adam Jones	BAL	CF	8	4	23	10.3	4.2	9	 			
+Chris Davis	BAL	1B	9	6	31	10.7	4.3	7	 			
+Hanley Ramirez	LAD	SS	10	5	24	11.6	4.1	10	 			
+Ryan Braun	MIL	LF	11	3	45	13.3	7.9	11	 			
+Adrian Beltre	TEX	3B	12	5	37	13.4	5.3	14	 			
+Bryce Harper	WSH	CF	LF	RF	13	6	47	15	7.8	13	 	
+Prince Fielder	TEX	1B	14	7	56	15.2	7.8	15	 			
+Joey Votto	CIN	1B	15	3	51	15.6	6.8	18	 			
+Troy Tulowitzki	COL	SS	16	7	37	16	5.4	17	 			
+Jacoby Ellsbury	NYY	CF	17	6	37	18	6.9	12	 			
+Yu Darvish	TEX	SP	18	6	28	18.3	4.3	19	 			
+Edwin Encarnacion	TOR	1B	3B	DH	19	8	58	18.8	9.4	16	 	
+David Wright	NYM	3B	20	13	40	21.6	5.4	21	 			
+Carlos Gomez	MIL	CF	21	9	61	24	9.5	23	 			
+Evan Longoria	TB	3B	22	10	110	24.8	13.7	20	 			
+Adam Wainwright	STL	SP	23	8	45	26.2	6.1	27	 			
+Felix Hernandez	SEA	SP	24	17	62	28.4	7.7	35	 			
+Jason Kipnis	CLE	2B	25	13	75	28.5	9.5	22	 			
+Max Scherzer	DET	SP	26	16	46	28.8	6.6	30	 			
+Giancarlo Stanton	MIA	RF	27	10	59	28.9	10.9	25	 			
+Freddie Freeman	ATL	1B	28	9	58	29.7	10.3	26	 			
+Yasiel Puig	LAD	CF	RF	LF	29	9	65	30.3	10.3	24	 	
+Stephen Strasburg	WSH	SP	30	18	48	31.2	6.7	29	 			
+Cliff Lee	PHI	SP	31	19	53	32.2	7.3	34	 			
+Dustin Pedroia	BOS	2B	32	15	108	33.4	14.1	28	 			
+Jose Fernandez	MIA	SP	33	17	53	34.4	8.1	38	 			
+Jose Bautista	TOR	RF	34	14	58	34.4	8.5	32	 			
+Jay Bruce	CIN	RF	35	15	59	35.7	10.1	31	 			
+Justin Upton	ATL	LF	RF	36	21	54	36.2	7.1	40	 		
+Chris Sale	CWS	SP	37	24	64	39	7.2	44	 			
+Ian Desmond	WSH	SS	38	16	88	39.5	11.6	36	 			
+Madison Bumgarner	SF	SP	39	25	56	39.5	6.8	47	 			
+Shin-Soo Choo	TEX	CF	RF	40	14	81	39.7	12.1	41	 		
+Jose Reyes	TOR	SS	41	16	99	39.7	13.2	39	 			
+Alex Rios	TEX	RF	CF	42	19	77	42.1	13	33	 		
+David Price	TB	SP	43	20	70	44.6	8.5	53	 			
+Justin Verlander	DET	SP	44	18	73	44.9	10.4	45	 			
+Jean Segura	MIL	SS	45	25	100	49.5	14.7	46	 			
+Albert Pujols	LAA	1B	DH	46	12	123	51.4	19.2	42	 		
+Buster Posey	SF	1B	C	47	28	141	51.9	19.8	43	 		
+Matt Holliday	STL	LF	48	32	78	52.1	11.1	55	 			
+Zack Greinke	LAD	SP	49	33	94	53.1	11.4	65	 			
+Eric Hosmer	KC	1B	50	19	95	54.6	15.8	52	 			
+Hunter Pence	SF	RF	51	26	90	55.5	12.5	48	 			
+Starling Marte	PIT	CF	LF	52	35	104	57.2	13.4	51	 		
+Wil Myers	TB	CF	RF	53	26	92	59.5	11.4	61	 		
+Craig Kimbrel	ATL	RP	54	44	83	55.3	9.5	37	 			
+Adrian Gonzalez	LAD	1B	55	36	191	60.8	21.2	59	 			
+Ryan Zimmerman	WSH	3B	56	30	149	60.8	19.7	68	 			
+Allen Craig	STL	1B	LF	RF	57	23	110	63.8	13.7	57	 	
+Elvis Andrus	TEX	SS	58	34	124	63.8	20.1	66	 			
+Ian Kinsler	DET	2B	59	30	133	65.1	19.6	62	 			
+Yoenis Cespedes	OAK	CF	LF	DH	60	32	105	61.2	13	60	 	
+David Ortiz	BOS	1B	DH	61	20	158	67.4	22.3	64	 		
+Jason Heyward	ATL	CF	RF	62	37	159	67.6	18	72	 		
+Anibal Sanchez	DET	SP	63	46	105	63.6	14	74	 			
+Matt Carpenter	STL	2B	3B	64	20	131	69.1	22.2	58	 		
+Gio Gonzalez	WSH	SP	65	43	100	69.6	12.6	82	 			
+Matt Kemp	LAD	CF	66	18	139	65.8	21.8	49	 			
+Josh Donaldson	OAK	3B	67	20	109	70.3	20.5	69	 			
+Aroldis Chapman	CIN	RP	68	46	100	66.4	12	54	 			
+Jordan Zimmermann	WSH	SP	69	49	124	73.5	14.3	81	 			
+Mat Latos	CIN	SP	70	43	140	73.7	15.9	95	 			
+Kenley Jansen	LAD	RP	71	50	117	70.9	13.3	50	 			
+Matt Cain	SF	SP	72	44	119	75.8	15.6	88	 			
+Homer Bailey	CIN	SP	73	48	151	77.7	20.2	90	 			
+Gerrit Cole	PIT	SP	74	44	134	80.2	18.6	93	 			
+Alex Gordon	KC	LF	75	45	151	80.4	16.9	79	 			
+Mark Trumbo	ARI	1B	LF	RF	76	19	198	81.3	26	56	 	
+James Shields	KC	SP	77	47	123	84.1	17	85	 			
+Greg Holland	KC	RP	78	59	110	81.5	12.3	63	 			
+Carlos Santana	CLE	1B	C	DH	79	40	154	83.7	21.1	70	 	
+Carlos Beltran	NYY	RF	CF	80	31	165	87.7	21.9	89	 		
+Jayson Werth	WSH	RF	81	27	137	89	16.5	75	 			
+Alex Cobb	TB	SP	82	54	149	89.5	16.1	111	 			
+Anthony Rizzo	CHC	1B	83	47	169	89.8	23.9	96	 			
+Joe Mauer	MIN	1B	C	DH	84	26	218	87.4	30.2	67	 	
+Cole Hamels	PHI	SP	85	39	192	87.5	34.1	94	 			
+Jose Altuve	HOU	2B	86	55	184	91.4	22.3	91	 			
+Mike Minor	ATL	SP	87	58	213	90.8	26.9	86	 			
+Pedro Alvarez	PIT	3B	88	50	154	95.4	23.7	76	 			
+Domonic Brown	PHI	LF	RF	89	44	169	95.9	25.6	100	 		
+Yadier Molina	STL	C	90	49	185	93.6	29.4	78	 			
+Wilin Rosario	COL	C	91	38	158	99.8	27.3	84	 			
+Julio Teheran	ATL	SP	92	58	157	97	18.5	109	 			
+Trevor Rosenthal	STL	RP	93	62	180	97.1	18.1	77	 			
+Billy Hamilton	CIN	CF	LF	94	29	227	100.8	39.1	73	 		
+Josh Hamilton	LAA	CF	LF	RF	DH	95	47	165	97.3	24.9	71	 
+Koji Uehara	BOS	RP	96	60	160	97.7	18.5	83	 			
+Shelby Miller	STL	SP	97	50	155	101.8	20.2	115	 			
+Everth Cabrera	SD	SS	98	44	189	101.9	29.7	108	 			
+Brandon Phillips	CIN	2B	99	42	156	99.1	24	103	 			
+Ben Zobrist	TB	2B	RF	SS	100	57	220	103.7	28.4	80	 	
+Shane Victorino	BOS	CF	RF	101	68	162	105.2	18.2	126	 		
+Billy Butler	KC	1B	DH	102	59	202	107.1	28.9	120	 		
+Aaron Hill	ARI	2B	103	51	179	107.8	22.5	116	 			
+Desmond Jennings	TB	CF	104	80	158	111.8	15.3	102	 			
+Masahiro Tanaka	NYY	SP	105	75	234	110.2	27.4	92	 			
+Matt Moore	TB	SP	106	60	214	110.8	28.3	135	 			
+Joe Nathan	DET	RP	107	75	144	111.1	14.8	87	 			
+Hisashi Iwakuma	SEA	SP	108	69	212	112.3	30.7	110	 			
+Jose Dariel Abreu	CWS	1B	109	41	213	112.7	33.7	97	 			
+Michael Cuddyer	COL	1B	RF	110	55	175	113.4	27.4	104	 		
+Jered Weaver	LAA	SP	111	52	178	117.2	23.4	107	 			
+Curtis Granderson	NYM	CF	LF	RF	112	52	219	117.3	30.5	105	 	
+Kyle Seager	SEA	3B	113	69	229	116.6	27.3	101	 			
+Hyun-Jin Ryu	LAD	SP	114	80	199	117.7	24	130	 			
+Starlin Castro	CHC	SS	115	41	278	119	38.4	122	 			
+Brian McCann	NYY	C	116	71	194	120.4	30.3	99	 			
+Manny Machado	BAL	3B	117	56	397	119.6	49.6	121	 			
+Matt Adams	STL	1B	118	58	189	122.3	27.7	125	 			
+Michael Wacha	STL	SP	RP	119	71	235	117	26.5	106	 		
+Glen Perkins	MIN	RP	120	95	193	125	19.1	117	 			
+Doug Fister	WSH	SP	121	70	198	125.5	23.8	139	 			
+Brandon Belt	SF	1B	122	67	230	128.2	27.3	141	 			
+Jedd Gyorko	SD	2B	3B	123	50	254	125.6	44.6	119	 		
+David Robertson	NYY	RP	124	86	214	128.9	22.3	118	 			
+Sergio Romo	SF	RP	125	104	182	129.1	18.6	113	 			
+Francisco Liriano	PIT	SP	126	69	197	131.8	27.1	162	 			
+Austin Jackson	DET	CF	127	79	193	131.9	25.2	142	 			
+Martin Prado	ARI	2B	3B	LF	128	31	242	132.5	40.4	114	 	
+Jeff Samardzija	CHC	SP	129	97	191	134.4	19.4	159	 			
+Johnny Cueto	CIN	SP	130	79	198	138.1	24.7	163	 			
+Coco Crisp	OAK	CF	DH	131	72	221	133.9	24.4	136	 		
+Sonny Gray	OAK	SP	132	82	222	140.8	25.3	165	 			
+Danny Salazar	CLE	SP	133	75	202	141	30.9	155	 			
+Pablo Sandoval	SF	3B	134	69	297	139.6	40.1	134	 			
+Aramis Ramirez	MIL	3B	135	69	242	139.8	37.4	145	 			
+Mike Napoli	BOS	1B	136	70	230	136.9	29.6	140	 			
+Jason Grilli	PIT	RP	137	93	243	140.9	25.6	127	 			
+Nelson Cruz	BAL	RF	138	86	223	141.3	30	131	 			
+J.J. Hardy	BAL	SS	139	62	222	141.8	28.7	154	 			
+Chase Utley	PHI	2B	140	66	231	137	34	151	 			
+Alfonso Soriano	NYY	LF	141	69	204	141.6	24.1	112	 			
+Jonathan Lucroy	MIL	1B	C	142	35	212	142.2	33.8	98	 		
+Brett Lawrie	TOR	2B	3B	143	62	262	142.6	41.9	146	 		
+Leonys Martin	TEX	CF	LF	RF	144	58	228	146.3	35.1	129	 	
+Anthony Cingrani	CIN	SP	RP	145	70	222	138	29.8	157	 		
+Salvador Perez	KC	C	146	76	221	145.8	28.9	132	 			
+Andrelton Simmons	ATL	SS	147	100	198	148.8	22	148	 			
+Hiroki Kuroda	NYY	SP	148	95	235	152.6	25.8	183	 			
+Jon Lester	BOS	SP	149	104	219	151.5	22.9	156	 			
+Jonathan Papelbon	PHI	RP	150	109	205	152.2	20.2	143	 			
+Rafael Soriano	WSH	RP	151	109	221	155.3	26.2	128	 			
+Asdrubal Cabrera	CLE	SS	152	84	234	156.3	31.7	171	 			
+Brandon Moss	OAK	1B	LF	RF	153	89	225	156	29.2	133	 	
+Clay Buchholz	BOS	SP	154	68	251	157.7	33.3	193	 			
+Addison Reed	ARI	RP	155	100	215	159.9	26.7	150	 			
+Matt Wieters	BAL	C	156	65	249	163.1	29.1	138	 			
+CC Sabathia	NYY	SP	157	90	248	162.1	27.2	167	 			
+Jim Johnson	OAK	RP	158	122	240	164.9	25.6	123	 			
+Justin Masterson	CLE	SP	159	83	252	167.4	29.5	182	 			
+Andrew Cashner	SD	SP	RP	160	103	240	157.7	26.6	161	 		
+Brett Gardner	NYY	CF	161	74	270	163.6	28.8	169	 			
+R.A. Dickey	TOR	SP	162	88	250	166.3	31.7	166	 			
+Casey Janssen	TOR	RP	163	118	230	164.5	23.3	144	 			
+Lance Lynn	STL	SP	164	112	247	166.2	24.9	178	 			
+Victor Martinez	DET	1B	DH	165	75	292	164.3	44.8	158	 		
+Daniel Murphy	NYM	1B	2B	166	67	287	165.7	42.5	137	 		
+Matt Garza	MIL	SP	167	127	264	174	24.6	205	 			
+Alexei Ramirez	CWS	SS	168	78	240	171.8	29.7	173	 			
+Norichika Aoki	KC	RF	LF	169	109	246	169.7	28.2	198	 		
+Ernesto Frieri	LAA	RP	170	101	248	172.8	25.2	147	 			
+Patrick Corbin	ARI	SP	171	82	233	153.9	28.5	174	 			
+A.J. Burnett	PHI	SP	172	85	235	171.9	30	181	 			
+Jed Lowrie	OAK	2B	SS	173	100	258	176.1	32	187	 		
+Carl Crawford	LAD	LF	174	97	298	176.2	30.1	195	 			
+Dexter Fowler	HOU	CF	175	98	266	174.2	34.5	227	 			
+Chase Headley	SD	3B	176	66	424	179.5	48.1	153	 			
+Steve Cishek	MIA	RP	177	111	249	175.3	24.5	149	 			
+Mark Teixeira	NYY	1B	178	68	284	175.3	43.8	188	 			
+C.J. Wilson	LAA	SP	179	123	240	177.7	23	164	 			
+Grant Balfour	TB	RP	180	135	232	175.7	21.9	152	 			
+Chris Archer	TB	SP	181	118	250	178.2	28.2	216	 			
+Xander Bogaerts	BOS	3B	SS	182	105	275	177.4	36.8	177	 		
+Nolan Arenado	COL	3B	183	112	273	176.1	35.8	202	 			
+Howie Kendrick	LAA	2B	184	77	278	181.8	34.2	192	 			
+Jurickson Profar	TEX	2B	3B	SS	DH	185	109	381	182.1	41.9	175	 
+Torii Hunter	DET	RF	CF	186	102	251	186.8	28.7	176	 		
+Evan Gattis	ATL	C	LF	187	51	289	181.4	40.9	160	 		
+Michael Bourn	CLE	CF	188	87	244	185.9	27.7	168	 			
+Adam Eaton	CWS	CF	LF	189	104	260	190.3	32.2	219	 		
+Wilson Ramos	WSH	C	190	140	291	193.6	30.1	170	 			
+Zack Wheeler	NYM	SP	191	120	320	194.9	37.5	191	 			
+Jimmy Rollins	PHI	SS	192	141	271	193.1	23.1	200	 			
+Christian Yelich	MIA	CF	LF	193	126	298	197.1	29.4	180	 		
+Ben Revere	PHI	CF	194	130	291	197.9	28.3	218	 			
+Kendrys Morales	FA	1B	DH	195	93	255	186.1	33.4	190	 		
+Huston Street	SD	RP	196	153	305	201.5	29.4	186	 			
+Khris Davis	MIL	LF	197	70	317	196.4	43.9	203	 			
+Fernando Rodney	SEA	RP	198	119	269	198.2	28.5	184	 			
+Corey Kluber	CLE	SP	199	112	255	199.2	27.1	233	 			
+Bobby Parnell	NYM	RP	200	142	259	199.3	22.4	185	 			
+Kris Medlen	ATL	SP	201	84	259	128.7	42.4	124	 			
+Alejandro De Aza	CWS	CF	LF	202	85	291	194	33.6	189	 		
+Michael Brantley	CLE	LF	CF	203	112	300	203.6	35.6	232	 		
+Nick Swisher	CLE	1B	RF	204	145	256	200.2	23.4	199	 		
+Tim Lincecum	SF	SP	205	150	268	204.9	25.2	217	 			
+Will Venable	SD	CF	RF	206	103	282	202.6	38.2	201	 		
+Jim Henderson	MIL	RP	207	141	249	208.5	26.2	172	 			
+Ervin Santana	KC	SP	208	125	280	201.5	27.3	222	 			
+Jake Peavy	BOS	SP	209	119	283	207.5	28.7	245	 			
+Jason Castro	HOU	C	210	130	331	203.1	33.1	196	 			
+Will Middlebrooks	BOS	3B	211	119	260	202.8	31.3	179	 			
+Ryan Howard	PHI	1B	212	143	301	206.8	34.8	207	 			
+Jhonny Peralta	STL	SS	213	136	306	208.8	33.3	221	 			
+Marco Estrada	MIL	SP	214	121	322	209.3	35	215	 			
+Todd Frazier	CIN	3B	215	122	299	212.1	25.4	237	 			
+Corey Hart	SEA	1B	216	133	285	206.7	32.6	230	 			
+Brian Dozier	MIN	2B	217	98	290	212.9	34.5	197	 			
+Bradley Miller	SEA	2B	SS	218	100	309	204.6	43.9	223	 		
+B.J. Upton	ATL	CF	219	141	347	216.6	39.3	214	 			
+John Axford	CLE	RP	220	125	278	218.2	29.2	204	 			
+Josh Reddick	OAK	RF	LF	221	165	324	223.3	27.1	209	 		
+Jonathan Villar	HOU	SS	222	118	281	219.4	30.2	206	 			
+Yovani Gallardo	MIL	SP	223	167	282	221.3	21.4	220	 			
+Erick Aybar	LAA	SS	224	116	283	215.2	26.3	277	 			
+Chris Tillman	BAL	SP	225	140	273	221	26.2	228	 			
+Neil Walker	PIT	2B	226	113	291	221.1	28.8	258	 			
+Drew Smyly	DET	RP	227	133	263	214.2	26.7	255	 			
+Anthony Rendon	WSH	2B	3B	228	131	339	216.2	36.4	260	 		
+Tommy Hunter	BAL	RP	229	125	365	228.9	36	213	 			
+Nate Jones	CWS	RP	230	114	271	224.7	28.7	212	 			
+Kole Calhoun	LAA	RF	231	67	336	207.1	53.1	208	 			
+Justin Morneau	COL	1B	232	128	305	218.3	37.5	236	 			
+Neftali Feliz	TEX	RP	233	148	410	224.1	43.4	210	 			
+Alex Wood	ATL	SP	RP	234	162	320	222.2	32.6	247	 		
+A.J. Griffin	OAK	SP	235	122	381	224.9	43.4	240	 			
+Ubaldo Jimenez	BAL	SP	236	121	286	223.4	31.5	224	 			
+Dan Haren	LAD	SP	237	136	259	225.4	27.5	229	 			
+Jose Veras	CHC	RP	238	163	358	232.2	25.6	226	 			
+Adam Lind	TOR	1B	DH	239	132	285	217.6	32.4	250	 		
+Nick Markakis	BAL	RF	240	153	360	234.5	31.7	243	 			
+Jarrod Parker	OAK	SP	241	132	306	229.5	29.6	267	 			
+John Lackey	BOS	SP	242	167	292	233.3	22.7	288	 			
+Colby Rasmus	TOR	CF	243	144	273	234.1	26.1	252	 			
+Brandon Beachy	ATL	SP	244	157	428	224.7	41.5	248	 			
+David Freese	LAA	3B	245	173	294	231.1	26.2	283	 			
+Taijuan Walker	SEA	SP	246	148	314	232.4	33.6	262	 			
+Chris Carter	HOU	1B	LF	DH	247	182	334	237.3	26.6	194	 	
+Yan Gomes	CLE	C	248	141	344	235.5	35.5	235	 			
+Daniel Straily	OAK	SP	249	165	363	235.3	37.6	241	 			
+Angel Pagan	SF	CF	250	168	361	242.1	32.2	242	 			
+Adam LaRoche	WSH	1B	251	166	280	229.9	28.3	246	 			
+Ricky Nolasco	MIN	SP	252	173	301	236.3	30.1	392	 			
+Chris Johnson	ATL	1B	3B	253	185	357	228	38	256	 		
+Avisail Garcia	CWS	CF	RF	254	128	335	230.1	46.8	257	 		
+Alcides Escobar	KC	SS	255	156	302	227	36.3	312	 			
+Mike Moustakas	KC	3B	256	131	296	230.9	32.5	261	 			
+Ian Kennedy	SD	SP	257	156	297	229.2	37.7	266	 			
+Rex Brothers	COL	RP	258	160	331	245.5	35.5	244	 			
+Tyson Ross	SD	SP	RP	259	141	640	244.4	100	269	 		
+George Springer	HOU	CF	LF	260	100	405	244.9	62.8	211	 		
+Rick Porcello	DET	SP	261	129	350	236.2	52.1	278	 			
+Eric Young	NYM	CF	LF	RF	262	137	307	238.9	31.5	268	 	
+Scott Kazmir	OAK	SP	263	141	344	232.8	49.1	271	 			
+Derek Jeter	NYY	SS	264	171	415	248.9	49.3	251	 			
+Danny Farquhar	SEA	RP	265	179	574	253.6	77	225	 			
+Ivan Nova	NYY	SP	266	183	296	241.3	31.6	259	 			
+Miguel Montero	ARI	C	267	194	292	243.4	28.4	239	 			
+Adam Dunn	CWS	1B	DH	268	202	343	250.7	33.2	265	 		
+LaTroy Hawkins	COL	RP	269	192	501	258.3	61.1	263	 			
+Rajai Davis	DET	CF	LF	RF	270	183	394	248	45.3	253	 	
+Omar Infante	KC	2B	271	163	299	246.9	30.5	270	 			
+Jose Quintana	CWS	SP	272	172	400	241.1	54.6	274	 			
+Kelly Johnson	NYY	2B	3B	LF	273	156	318	232.7	33.1	273	 	
+Justin Smoak	SEA	1B	274	175	310	237.4	37.7	359	 			
+Yonder Alonso	SD	1B	275	172	388	259.8	54.3	388	 			
+Josh Johnson	SD	SP	276	175	385	256.1	55.6	375	 			
+A.J. Pierzynski	BOS	C	277	198	329	252.9	28.1	238	 			
+Oswaldo Arcia	MIN	LF	RF	278	173	332	252.1	45	310	 		
+Josh Willingham	MIN	LF	DH	279	205	323	256.6	30.1	281	 		
+Denard Span	WSH	CF	280	169	348	263.2	44.2	350	 			
+Nick Castellanos	DET	LF	281	161	323	264.7	38.3	254	 			
+Peter Bourjos	STL	CF	282	130	342	245.8	53.7	370	 			
+Marlon Byrd	PHI	RF	CF	283	186	323	257	39.7	234	 		
+Matt Dominguez	HOU	3B	284	191	299	239.8	28.2	264	 			
+Derek Holland	TEX	SP	285	176	404	246.5	69.8	426	 			
+Dillon Gee	NYM	SP	286	208	306	249.1	27.6	272	 			
+Joaquin Benoit	SD	RP	287	178	353	248.8	41	321	 			
+Bartolo Colon	NYM	SP	288	218	301	258.2	23.2	279	 			
+Kyle Lohse	MIL	SP	289	203	359	245.7	43.1	275	 			
+Joakim Soria	TEX	RP	290	187	482	279.5	76.7	285	 			
+Melky Cabrera	TOR	LF	291	176	379	257.4	52.2	282	 			
+Kolten Wong	STL	2B	292	189	297	254.4	26.7	295	 			
+Oscar Taveras	STL	RF	CF	293	191	464	272.6	59.4	307	 		
+Daniel Nava	BOS	1B	LF	RF	294	179	434	273.5	62.8	382	 	
+Michael Morse	SF	1B	LF	RF	295	170	459	269.9	73.7	374	 	
+Jarrod Saltalamacchia	MIA	C	296	151	334	264.7	41.1	249	 			
+Andre Ethier	LAD	CF	LF	RF	297	175	357	264.4	49.1	276	 	
+Michael Pineda	NYY	SP	298	174	583	280	103.2	287	 			
+Jesse Crain	HOU	RP	299	197	431	290.6	76.9	403	 			
+Zack Cozart	CIN	SS	300	205	306	262.2	31	306	 			
+Ike Davis	NYM	1B	301	199	423	280	58.3	425	 			
+Travis Wood	CHC	SP	302	204	346	268.5	45.2	308	 			
+Travis d'Arnaud	NYM	C	303	168	400	269.9	58.5	280	 			
+Jonathon Niese	NYM	SP	304	246	317	270.9	19.5	353	 			
+James Loney	TB	1B	305	213	340	271.1	34.4	315	 			
+Stephen Drew	FA	SS	306	184	369	273.2	52	409	 			
+Carlos Quentin	SD	LF	307	212	407	282.2	57.1	391	 			
+Mark Melancon	PIT	RP	308	196	387	277.6	53.6	339	 			
+Cody Allen	CLE	RP	309	162	389	273.9	66.2	373	 			
+A.J. Pollock	ARI	CF	310	199	351	267.4	63.6	430	 			
+Carlos Martinez	STL	RP	311	172	506	292.7	121.5	NR 	 			
+Devin Mesoraco	CIN	C	312	225	395	276.2	40.2	294	 			
+Hector Santiago	LAA	SP	RP	313	207	477	286.8	91.4	367	 		
+Chad Qualls	HOU	RP	314	182	452	289.1	78.9	431	 			
+Alexander Guerrero	LAD	2B	315	197	297	246.9	31.6	231	 			
+Justin Ruggiano	CHC	CF	LF	316	84	406	272.7	79	445	 		
+Martin Perez	TEX	SP	317	190	396	284.4	60.2	411	 			
+Scooter Gennett	MIL	2B	318	182	444	281.5	63.4	349	 			
+Mike Leake	CIN	SP	319	237	362	268.7	36.7	404	 			
+Wade Miley	ARI	SP	320	233	345	272.1	35.3	313	 			
+Trevor Plouffe	MIN	3B	321	232	394	280.2	42.2	439	 			
+Gerardo Parra	ARI	CF	RF	LF	322	214	414	283.5	55.7	379	 	
+Lorenzo Cain	KC	CF	RF	323	222	320	272	31.1	413	 		
+Junior Lake	CHC	CF	LF	324	196	330	271.8	34.6	386	 		
+Mitch Moreland	TEX	1B	325	204	349	271.4	40.2	401	 			
+Tim Hudson	SF	SP	326	222	347	273.1	38.4	303	 			
+Nate Schierholtz	CHC	RF	327	192	342	281.7	42.7	342	 			
+Russell Martin	PIT	C	328	230	447	297.9	55.6	286	 			
+Cody Asche	PHI	3B	329	118	343	269.8	64.2	416	 			
+Josh Rutledge	COL	2B	SS	330	242	432	284	57.9	402	 		
+Dayan Viciedo	CWS	LF	RF	331	208	319	271.8	30.4	390	 		
+Dan Uggla	ATL	2B	332	118	363	274.4	64.7	289	 			
+Marcell Ozuna	MIA	CF	RF	333	177	415	288.9	72.3	290	 		
+Dioner Navarro	TOR	C	334	206	405	298.9	59.4	304	 			
+Dee Gordon	LAD	SS	335	226	380	285.3	43.8	355	 			
+Tyler Clippard	WSH	RP	336	206	368	291.8	53.2	354	 			
+Corey Dickerson	COL	CF	LF	337	208	385	300.6	67.4	429	 		
+Jhoulys Chacin	COL	SP	338	207	386	283.1	49.8	399	 			
+Jose Iglesias	DET	3B	SS	339	196	418	302.5	76.8	328	 		
+Yordano Ventura	KC	SP	340	235	356	282.2	43.4	361	 			
+Mike Zunino	SEA	C	341	215	443	301.4	62	327	 			
+Sergio Santos	TOR	RP	342	168	536	358	142.9	443	 			
+Alex Avila	DET	C	343	249	337	290.8	28	291	 			
+Matt Davidson	CWS	3B	344	242	383	296.2	40.7	438	 			
+Phil Hughes	MIN	SP	345	237	399	312.6	49.5	408	 			
+Jackie Bradley	BOS	CF	LF	346	253	409	305.4	46.1	352	 		
+Chris Owings	ARI	SS	347	228	470	318	88	446	 			
+James Paxton	SEA	SP	348	232	397	291	65.6	398	 			
+Mark Reynolds	FA	1B	3B	DH	349	243	348	294.9	35.6	345	 	
+DJ LeMahieu	COL	2B	3B	350	188	396	299.3	56.4	424	 		
+Marco Scutaro	SF	2B	351	239	321	289.3	24.4	319	 			
+Javier Baez	CHC	SS	352	233	653	387	163.2	381	 			
+Gordon Beckham	CWS	2B	353	249	352	297.3	36.7	314	 			
+Jake McGee	TB	RP	354	202	430	342.7	80	500	 			
+Darin Ruf	PHI	1B	LF	RF	355	177	523	373	145	418	 	
+Pedro Strop	CHC	RP	356	234	417	326.6	64.1	453	 			
+Heath Bell	TB	RP	357	239	555	379	113.5	460	 			
+Dustin Ackley	SEA	2B	CF	LF	358	247	429	315	61.7	389	 	
+Bronson Arroyo	ARI	SP	359	248	321	282	25.3	364	 			
+Tanner Scheppers	TEX	RP	360	241	540	382.7	115.4	362	 			
+Jose Tabata	PIT	LF	RF	361	213	558	384.8	143.5	499	 		
+Chris Young	WSH	SP	362	230	385	292	67	395	 			
+Carlos Ruiz	PHI	C	363	261	373	303.9	35.7	293	 			
+Kevin Gausman	BAL	SP	RP	364	201	487	354.6	111.5	414	 		
+Logan Morrison	SEA	1B	365	220	368	303.9	42.6	450	 			
+Danny Valencia	KC	DH	366	197	197	197	0	NR 	 			
+Nate McLouth	WSH	LF	CF	367	224	427	314.3	75.5	422	 		
+Yunel Escobar	TB	SS	368	241	398	317.7	56.3	332	 			
+Wily Peralta	MIL	SP	369	249	433	321.8	69.7	432	 			
+Ryan Ludwick	CIN	LF	RF	370	223	515	336.2	99.9	292	 		
+Matt Joyce	TB	LF	RF	DH	371	234	410	308	58.6	456	 	
+J.J. Putz	ARI	RP	372	231	409	333.8	69.5	376	 			
+Garrett Jones	MIA	1B	RF	373	241	353	292.8	36	406	 		
+Nathan Eovaldi	MIA	SP	374	220	392	311.5	51.7	448	 			
+Miguel Alfredo Gonzalez	PHI	SP	375	210	509	358.8	99.5	478	 			
+Wei-Yin Chen	BAL	SP	376	265	382	311.4	48.6	397	 			
+Emilio Bonifacio	FA	2B	3B	CF	LF	377	225	616	346	124.9	385	 
+Mark Buehrle	TOR	SP	378	263	367	298.6	36.5	320	 			
+Jacob Turner	MIA	SP	379	248	520	332.6	96.4	512	 			
+Juan Francisco	MIL	1B	3B	380	245	481	365	103.3	485	 		
+Rickie Weeks	MIL	2B	381	269	444	334.7	74.8	447	 			
+Rafael Furcal	MIA	2B	SS	382	242	417	343.6	68.6	442	 		
+Brian Wilson	LAD	RP	383	229	497	383	91.2	318	 			
+Darren O'Day	BAL	RP	384	231	418	349.8	65.5	333	 			
+A.J. Ellis	LAD	C	385	242	424	343.3	78.7	297	 			
+Tyler Skaggs	LAA	SP	386	255	484	350	91.2	405	 			
+Cody Ross	ARI	LF	RF	CF	387	235	371	329	55.1	502	 	
+Yasmani Grandal	SD	C	388	255	466	353.5	88.1	427	 			
+Brandon Morrow	TOR	SP	389	269	377	314	36.6	419	 			
+Nick Franklin	SEA	2B	390	271	446	326.6	60.5	347	 			
+John Jaso	OAK	C	391	265	413	340	58.3	444	 			
+Geovany Soto	TEX	C	392	270	410	318.7	49	433	 			
+Yusmeiro Petit	SF	SP	393	243	650	465.3	168.3	482	 			
+Ryan Cook	OAK	RP	394	243	486	374.4	89.7	493	 			
+Charlie Blackmon	COL	CF	LF	RF	395	257	530	396	124.2	441	 	
+Edward Mujica	BOS	RP	396	245	538	388.4	101.2	299	 			
+Luke Gregerson	OAK	RP	397	263	448	346.5	75.1	358	 			
+Alexi Ogando	TEX	SP	RP	398	250	539	362.2	96.6	410	 		
+Welington Castillo	CHC	C	399	265	418	332.2	53	366	 			
+Scott Feldman	HOU	SP	400	251	415	340	67.7	483	 			
+Erasmo Ramirez	SEA	SP	401	254	619	451	150.4	463	 			
+Raul Ibanez	LAA	LF	DH	402	254	412	342	63.9	365	 		
+David Murphy	CLE	LF	403	259	396	335.3	58.5	477	 			
+Matt Lindstrom	CWS	RP	404	257	568	454.7	140.3	511	 			
+Michael Saunders	SEA	CF	LF	RF	405	273	430	318.2	43	393	 	
+Lonnie Chisenhall	CLE	3B	406	279	420	343.8	62.6	470	 			
+Archie Bradley	ARI	SP	407	265	486	365.3	91.4	371	 			
+Brett Oberholtzer	HOU	SP	408	266	408	348	60	329	 			
+Wandy Rodriguez	PIT	SP	409	268	406	324.3	59.1	449	 			
+Joshua Fields	HOU	RP	410	282	591	386.3	144.7	341	 			
+Drew Stubbs	COL	CF	RF	411	269	502	366.6	77.6	464	 		
+Brandon McCarthy	ARI	SP	412	269	390	330.3	42.8	465	 			
+Edinson Volquez	PIT	SP	413	270	565	404.3	105.7	NR 	 			
+Brian Roberts	NYY	2B	414	272	360	324.3	37.8	330	 			
+Steven Rodriguez	LAD	RP	415	273	536	447.7	123.5	NR 	 			
+L.J. Hoes	HOU	RF	LF	416	274	597	415.5	116.8	NR 	 		
+Logan Forsythe	TB	2B	3B	LF	SS	417	275	471	395.3	86	NR 	 
+Jon Jay	STL	CF	418	276	552	420.3	113	400	 			
+Alex Presley	MIN	CF	LF	RF	419	276	405	335	46.5	475	 	
+Eduardo Nunez	NYY	3B	SS	420	277	606	394.4	126.5	489	 		
+Juan Lagares	NYM	CF	RF	LF	421	278	579	428.3	122.9	NR 	 	
+Brandon Crawford	SF	SS	422	278	403	335	43.3	301	 			
+Didi Gregorius	ARI	SS	423	280	438	367.4	65	490	 			
+J.P. Arencibia	TEX	C	424	280	485	384.5	77.7	311	 			
+Zach McAllister	CLE	SP	425	281	419	344.4	46	343	 			
+Ryan Doumit	ATL	C	RF	DH	426	282	451	369.8	76.8	298	 	
+Steve Delabar	TOR	RP	427	283	566	460.7	126.3	NR 	 			
+Jordy Mercer	PIT	2B	SS	428	283	372	316.8	33.3	387	 		
+Gregory Polanco	PIT	RF	429	284	382	333	49	360	 			
+Edwin Jackson	CHC	SP	430	284	374	331.7	36.9	506	 			
+Garrett Richards	LAA	SP	RP	431	285	467	355	80	462	 		
+Trevor Cahill	ARI	SP	432	288	377	320.8	30	423	 			
+Henry Urrutia	BAL	DH	LF	433	288	609	448.5	160.5	NR 	 		
+Sean Doolittle	OAK	RP	434	289	513	397.7	91.6	NR 	 			
+Henderson Alvarez	MIA	SP	435	289	469	356.3	69.4	451	 			
+Casey Fien	MIN	RP	436	290	552	421	131	NR 	 			
+Jorge De La Rosa	COL	SP	437	290	462	363	65.3	356	 			
+Lucas Duda	NYM	1B	LF	438	291	445	363.3	54.9	472	 		
+Alberto Callaspo	OAK	2B	3B	439	292	501	409	87.1	338	 		
+Ichiro Suzuki	NYY	CF	LF	RF	440	292	431	377.3	57.9	372	 	
+Charlie Morton	PIT	SP	441	294	478	375.8	67.1	457	 			
+Daniel Webb	CWS	RP	442	294	294	294	0	NR 	 			
+Brandon Kintzler	MIL	RP	443	295	563	429	134	NR 	 			
+Bud Norris	BAL	SP	444	296	402	343.7	43.9	455	 			
+Jason Vargas	KC	SP	445	296	377	341	29.5	420	 			
+Eric Chavez	ARI	3B	446	297	446	347.7	69.5	NR 	 			
+Byron Buxton	MIN	LF	447	297	617	457	160	344	 			
+Jonathan Schoop	BAL	2B	448	297	608	452.5	155.5	514	 			
+Nick Vincent	SD	RP	449	297	492	394.5	97.5	NR 	 			
+Jenrry Mejia	NYM	SP	450	298	564	407.5	97.4	471	 			
+Eric Stults	SD	SP	451	299	470	371.7	72.1	476	 			
+Adeiny Hechavarria	MIA	SS	452	299	404	361.8	40.3	505	 			
+Tim Stauffer	SD	RP	453	300	598	495.3	138.2	NR 	 			
+Erik Johnson	CWS	SP	454	300	319	309.5	9.5	436	 			
+Juan Uribe	LAD	3B	455	302	387	339	35.6	317	 			
+Chris Capuano	BOS	SP	456	303	496	399.5	96.5	NR 	 			
+Ruben Tejada	NYM	SS	457	303	494	423	85.3	NR 	 			
+Sam LeCure	CIN	RP	458	304	615	503.7	141.5	NR 	 			
+Tommy Milone	OAK	SP	459	304	421	371.8	42.4	494	 			
+Joel Peralta	TB	RP	460	306	523	430	85.7	NR 	 			
+Grady Sizemore	BOS	CF	461	307	465	411	73.6	428	 			
+Jordan Walden	ATL	RP	462	308	561	421	105	NR 	 			
+Chris Young	NYM	CF	LF	RF	463	309	534	390.3	85.6	NR 	 	
+Scott Baker	FA	SP	464	312	498	412	76.6	368	 			
+Kelvin Herrera	KC	RP	465	312	434	381.3	51.2	NR 	 			
+Brad Peacock	HOU	SP	466	315	472	393.5	78.5	496	 			
+Junichi Tazawa	BOS	RP	467	316	550	416	98.5	309	 			
+Pedro Florimon	MIN	SS	468	316	529	422.5	106.5	484	 			
+Carlos Villanueva	CHC	SP	RP	469	318	335	326.5	8.5	NR 	 		
+Tony Watson	PIT	RP	470	319	560	464	104.3	NR 	 			
+Jarrod Dyson	KC	CF	471	320	451	391	55.1	461	 			
+Josh Collmenter	ARI	RP	472	322	607	475.7	117.4	NR 	 			
+Josh Beckett	LAD	SP	473	322	487	413.3	59.9	454	 			
+J.P. Howell	LAD	RP	474	323	586	492.3	120	NR 	 			
+Charlie Furbush	SEA	RP	475	324	526	425	101	NR 	 			
+Bryan Shaw	CLE	RP	476	325	619	513.3	133.5	NR 	 			
+Brett Anderson	COL	SP	RP	477	325	436	373	46.5	467	 		
+Felipe Paulino	CWS	SP	RP	478	326	533	413.3	87.5	NR 	 		
+Danny Duffy	KC	SP	479	326	488	401.7	66.6	459	 			
+Jake Odorizzi	TB	SP	480	326	481	386.3	67.8	452	 			
+Alexander Torres	SD	RP	481	327	576	448.7	101.7	NR 	 			
+Paul Maholm	LAD	SP	482	327	537	439.3	81.2	NR 	 			
+Neal Cotts	TEX	RP	483	328	658	453.7	145.8	383	 			
+Jeff Locke	PIT	SP	484	329	544	434	87.8	421	 			
+Felix Doubront	BOS	SP	485	329	386	362	22.2	434	 			
+Shaun Marcum	FA	SP	486	330	594	462	132	NR 	 			
+Jonny Gomes	BOS	LF	487	330	540	416.3	89.7	302	 			
+Carlos Martinez	MIA	RP	SP	488	331	332	331.5	0.5	334	 		
+David Phelps	NYY	SP	RP	489	334	600	474.3	109.1	NR 	 		
+Mike Olt	CHC	1B	3B	490	335	505	420	85	507	 		
+Matt Belisle	COL	RP	491	336	610	496.3	116.6	NR 	 			
+Darwin Barney	CHC	2B	492	336	447	391.5	55.5	NR 	 			
+Casey McGehee	MIA	1B	3B	493	337	468	396.7	54.1	513	 		
+Kyle Drabek	TOR	RP	494	338	549	443.5	105.5	NR 	 			
+Alex Rodriguez	FA	3B	495	338	338	338	0	NR 	 			
+Chris McGuiness	PIT	1B	496	339	575	457	118	NR 	 			
+Miguel Gonzalez	BAL	SP	497	339	362	350.3	9.4	346	 			
+Jameson Taillon	PIT	SP	498	341	473	407	66	357	 			
+Tyler Thornburg	MIL	SP	RP	499	345	516	418	72	486	 		
+Noah Syndergaard	NYM	SP	500	346	567	474.3	93.7	351	 			
+Ryan Flaherty	BAL	2B	501	347	425	386	39	NR 	 			
+Ross Detwiler	WSH	SP	502	348	521	434.5	86.5	NR 	 			
+Jaime Garcia	STL	SP	503	348	478	400	47.8	369	 			
+Craig Stammen	WSH	RP	504	349	629	528.7	127.3	NR 	 			
+Paul Konerko	CWS	1B	DH	505	349	457	403	54	363	 		
+David Carpenter	ATL	RP	506	350	616	462	112.6	NR 	 			
+Francisco Rodriguez	MIL	RP	507	351	584	458	96.1	384	 			
+Gavin Floyd	ATL	SP	508	354	538	429.7	78.6	NR 	 			
+Mike Aviles	CLE	2B	3B	SS	509	355	361	358	3	407	 	
+Louis Coleman	KC	RP	510	356	615	485.5	129.5	NR 	 			
+Jason Motte	STL	RP	511	357	578	459	91	325	 			
+Shawn Kelley	NYY	RP	512	359	648	524.3	121.6	NR 	 			
+Andrew Lambo	PIT	LF	513	359	514	419.7	67.6	NR 	 			
+Joe Kelly	STL	SP	RP	514	360	437	398.5	38.5	284	 		
+Jesse Chavez	OAK	RP	515	360	360	360	0	NR 	 			
+Robbie Ross	TEX	RP	516	362	588	497.3	97.5	NR 	 			
+Jason Hammel	CHC	SP	517	362	414	388	26	NR 	 			
+David Hale	ATL	SP	518	363	363	363	0	NR 	 			
+Jeremy Hellickson	TB	SP	519	364	500	412	52.1	417	 			
+Manny Parra	CIN	RP	520	364	364	364	0	NR 	 			
+Jeremy Guthrie	KC	SP	521	365	411	388	23	336	 			
+Luis Avilan	ATL	RP	522	366	598	482	116	NR 	 			
+David DeJesus	TB	CF	LF	523	366	527	423.3	73.4	503	 		
+J.J. Hoover	CIN	RP	524	367	555	438.3	83.2	NR 	 			
+Tyler Flowers	CWS	C	525	367	529	465	70.4	NR 	 			
+Juan Nicasio	COL	SP	526	367	518	442.5	75.5	NR 	 			
+Joe Smith	LAA	RP	527	368	631	505.7	107.7	NR 	 			
+Randall Delgado	ARI	SP	528	368	368	368	0	498	 			
+Drew Storen	WSH	RP	529	369	493	439.3	52	466	 			
+Matt Harrison	TEX	SP	530	369	412	393	17.9	396	 			
+Sean Marshall	CIN	RP	531	370	543	478.3	77.1	NR 	 			
+Aaron Loup	TOR	RP	532	371	613	524.7	109.1	NR 	 			
+Nolan Reimold	BAL	LF	DH	533	371	586	478.5	107.5	NR 	 		
+Colby Lewis	FA	SP	534	371	393	382	11	NR 	 			
+Tyler Chatwood	COL	SP	535	372	476	424	52	NR 	 			
+Kevin Siegrist	STL	RP	536	373	511	444.7	56.5	326	 			
+Jerry Blevins	WSH	RP	537	374	624	533.3	113	NR 	 			
+Robbie Erlin	SD	SP	538	374	490	417.7	51.5	495	 			
+Robbie Grossman	HOU	CF	LF	539	374	482	435	45.2	337	 		
+Antonio Bastardo	PHI	RP	540	375	638	509.3	107.4	NR 	 			
+David Hernandez	ARI	RP	541	376	577	472.7	82.2	NR 	 			
+Bruce Chen	KC	SP	RP	542	376	551	463.5	87.5	335	 		
+Chris Iannetta	LAA	C	543	376	493	441.3	48.7	468	 			
+Kurt Suzuki	MIN	C	544	378	441	418.7	28.8	488	 			
+Carlos Torres	NYM	P	545	379	379	379	0	NR 	 			
+Boone Logan	COL	RP	546	380	563	471.5	91.5	NR 	 			
+Tanner Roark	WSH	SP	RP	547	380	547	454	69.5	440	 		
+Javier Lopez	SF	RP	548	382	582	482	100	NR 	 			
+Jason Frasor	TEX	RP	549	383	383	383	0	NR 	 			
+Drew Hutchison	TOR	SP	550	384	384	384	0	NR 	 			
+Brad Ziegler	ARI	RP	551	387	423	403.7	14.8	378	 			
+Steve Lombardozzi	DET	2B	LF	552	390	589	489.5	99.5	NR 	 		
+Tom Gorzelanny	MIL	SP	RP	553	390	554	472	82	NR 	 		
+Mike Dunn	MIA	RP	554	391	391	391	0	NR 	 			
+Carlos Carrasco	CLE	SP	RP	555	392	601	496.5	104.5	NR 	 		
+Ryan Raburn	CLE	LF	RF	556	392	599	495.5	103.5	NR 	 		
+Jarred Cosart	HOU	SP	557	395	395	395	0	481	 			
+A.J. Ramos	MIA	RP	558	399	579	489	90	NR 	 			
+Randy Choate	STL	RP	559	399	399	399	0	NR 	 			
+Derek Norris	OAK	C	560	401	452	426.5	25.5	380	 			
+Jemile Weeks	BAL	2B	561	402	532	467	65	NR 	 			
+Jeff Niemann	FA	SP	562	403	609	506	103	NR 	 			
+Jesus Guzman	HOU	1B	LF	563	403	557	480	77	NR 	 		
+Grant Green	LAA	2B	564	403	403	403	0	NR 	 			
+Dale Thayer	SD	RP	565	404	610	507	103	NR 	 			
+Dane De La Rosa	LAA	RP	566	406	504	455	49	NR 	 			
+Jared Burton	MIN	RP	567	407	587	497	90	NR 	 			
+Josmil Pinto	MIN	C	568	407	480	443.5	36.5	377	 			
+Luis Valbuena	CHC	2B	3B	569	408	526	467	59	NR 	 		
+Danny Espinosa	WSH	2B	570	408	463	435.5	27.5	NR 	 			
+Blake Parker	CHC	RP	571	408	408	408	0	NR 	 			
+Tsuyoshi Wada	CHC	SP	572	409	409	409	0	NR 	 			
+David Lough	BAL	CF	LF	RF	573	411	604	507.5	96.5	NR 	 	
+Al Alburquerque	DET	RP	574	411	490	450.5	39.5	NR 	 			
+Tommy Hanson	TEX	SP	575	413	413	413	0	NR 	 			
+Michael Gonzalez	FA	RP	576	413	413	413	0	NR 	 			
+Kyle Kendrick	PHI	SP	577	414	522	484	49.6	NR 	 			
+Roberto Hernandez	PHI	SP	578	416	416	416	0	NR 	 			
+Burke Badenhop	BOS	RP	579	417	417	417	0	NR 	 			
+Brandon Cumpton	PIT	P	580	420	420	420	0	NR 	 			
+Jason Kubel	FA	LF	RF	581	421	546	483.5	62.5	491	 		
+Hank Conger	LAA	C	582	421	439	430	9	469	 			
+Justin Wilson	PIT	RP	583	422	591	506.5	84.5	NR 	 			
+Scott Sizemore	FA	2B	3B	584	422	422	422	0	NR 	 		
+Wesley Wright	CHC	RP	585	423	423	423	0	NR 	 			
+Jamey Wright	LAD	RP	586	425	425	425	0	NR 	 			
+Josh Phegley	CWS	C	587	426	454	440	14	479	 			
+Chad Billingsley	LAD	SP	588	427	605	516	89	NR 	 			
+Maicer Izturis	TOR	2B	3B	SS	589	428	494	461	33	NR 	 	
+Luke Hochevar	KC	RP	590	429	517	473	44	394	 			
+John Mayberry	PHI	1B	CF	RF	LF	591	431	562	496.5	65.5	NR 	 
+Trevor Bauer	CLE	SP	592	432	432	432	0	501	 			
+Oliver Perez	FA	RP	593	432	432	432	0	NR 	 			
+Jonathan Singleton	HOU	1B	594	433	450	441.5	8.5	474	 			
+Justin Maxwell	KC	CF	RF	595	435	581	508	73	NR 	 		
+Carlos Pena	FA	1B	DH	596	435	435	435	0	NR 	 		
+Matt Thornton	NYY	RP	597	436	436	436	0	NR 	 			
+Joe Thatcher	ARI	RP	598	438	607	522.5	84.5	NR 	 			
+Yoervis Medina	SEA	RP	599	439	592	515.5	76.5	NR 	 			
+Wilton Lopez	COL	RP	600	440	440	440	0	NR 	 			
+Ryan Webb	BAL	RP	601	441	585	513	72	NR 	 			
+Chris Denorfia	SD	CF	LF	RF	602	442	572	507	65	NR 	 	
+Gaby Sanchez	PIT	1B	603	443	443	443	0	NR 	 			
+Craig Breslow	BOS	RP	604	444	444	444	0	NR 	 			
+Ryan Vogelsong	SF	SP	605	445	483	464	19	508	 			
+John Danks	CWS	SP	606	446	502	475	22.9	NR 	 			
+Chris Heisey	CIN	LF	CF	607	447	611	529	82	NR 	 		
+Seth Smith	SD	LF	RF	DH	608	448	583	515.5	67.5	NR 	 	
+Ed Lucas	MIA	1B	2B	3B	609	449	449	449	0	NR 	 	
+J.B. Shuck	LAA	LF	RF	CF	610	453	453	453	0	NR 	 	
+Mike Carp	BOS	1B	LF	611	454	525	489.5	35.5	NR 	 		
+Marcus Semien	CWS	3B	612	455	548	501.5	46.5	487	 			
+Maikel Franco	PHI	3B	613	456	652	554	98	412	 			
+Ryan Goins	TOR	2B	614	457	556	506.5	49.5	NR 	 			
+Anthony Gose	TOR	CF	LF	615	458	602	530	72	NR 	 		
+Eric Sogard	OAK	2B	SS	616	458	483	470.5	12.5	NR 	 		
+Kyle Blanks	SD	1B	LF	RF	617	459	468	463.5	4.5	NR 	 	
+Craig Gentry	OAK	CF	LF	618	460	491	475.5	15.5	473	 		
+Jake Marisnick	MIA	CF	619	461	577	519	58	515	 			
+Tommy Medica	SD	IF	620	462	462	462	0	NR 	 			
+Scott Van Slyke	LAD	LF	RF	621	463	463	463	0	NR 	 		
+Michael Choice	TEX	CF	622	466	466	466	0	NR 	 			
+Jesus Montero	SEA	C	623	467	632	549.5	82.5	458	 			
+Alexi Amarista	SD	2B	CF	LF	SS	624	469	484	476.5	7.5	NR 	 
+Stephen Vogt	OAK	C	625	471	635	553	82	NR 	 			
+Cameron Maybin	SD	CF	626	473	556	514.5	41.5	296	 			
+Marc Krauss	HOU	OF	627	474	474	474	0	NR 	 			
+Travis Snider	PIT	RF	LF	628	475	524	499.5	24.5	NR 	 		
+Brian Bogusevic	MIA	CF	LF	RF	629	475	475	475	0	NR 	 	
+Ryan Sweeney	CHC	CF	LF	RF	630	476	476	476	0	NR 	 	
+Daniel Descalso	STL	2B	3B	SS	631	479	547	513	34	322	 	
+Brendan Ryan	NYY	SS	632	485	545	515	30	NR 	 			
+Jeff Keppinger	CWS	1B	2B	3B	633	488	593	540.5	52.5	NR 	 	
+Caleb Gindl	MIL	LF	RF	634	489	489	489	0	NR 	 		
+Kevin Correia	MIN	SP	635	496	496	496	0	NR 	 			
+Joaquin Arias	SF	2B	3B	SS	636	497	497	497	0	NR 	 	
+J.A. Happ	TOR	SP	637	499	499	499	0	NR 	 			
+Bruce Rondon	DET	RP	638	500	571	535.5	35.5	509	 			
+Nick Hundley	SD	C	639	503	527	515	12	492	 			
+Mark Ellis	STL	2B	640	504	572	538	34	NR 	 			
+Andy Dirks	DET	LF	RF	CF	641	506	549	527.5	21.5	516	 	
+James Russell	CHC	RP	642	507	507	507	0	NR 	 			
+Vidal Nuno	NYY	SP	643	507	507	507	0	NR 	 			
+Abraham Almonte	SEA	LF	644	508	565	536.5	28.5	NR 	 			
+Brett Cecil	TOR	RP	645	510	510	510	0	NR 	 			
+Moises Sierra	TOR	RF	LF	646	512	512	512	0	NR 	 		
+Pete Kozma	STL	SS	647	512	512	512	0	NR 	 			
+Victor Black	NYM	RP	648	514	514	514	0	497	 			
+Clint Barmes	PIT	SS	649	517	517	517	0	NR 	 			
+Ryan Lavarnway	BOS	C	650	519	519	519	0	NR 	 			
+Jordan Schafer	ATL	CF	LF	RF	651	519	519	519	0	NR 	 	
+Wilmer Flores	NYM	3B	652	520	520	520	0	NR 	 			
+Dallas Keuchel	HOU	SP	RP	653	521	521	521	0	NR 	 		
+Hector Sanchez	SF	C	654	524	524	524	0	NR 	 			
+Burch Smith	SD	P	655	525	525	525	0	NR 	 			
+Max Stassi	HOU	C	656	528	542	535	7	NR 	 			
+Suk-Min Yoon	BAL	P	657	528	528	528	0	NR 	 			
+Chris Parmelee	MIN	1B	RF	LF	658	530	530	530	0	NR 	 	
+Daric Barton	OAK	1B	659	531	589	560	29	NR 	 			
+Will Smith	MIL	RP	660	531	531	531	0	NR 	 			
+John Buck	SEA	C	661	532	553	542.5	10.5	300	 			
+Ryan Hanigan	TB	C	662	535	546	540.5	5.5	510	 			
+Samuel Deduno	MIN	SP	663	535	535	535	0	NR 	 			
+Brett Wallace	FA	1B	3B	664	537	537	537	0	NR 	 		
+Skip Schumaker	CIN	2B	CF	LF	RF	665	541	541	541	0	NR 	 
+Kyle Zimmer	KC	SP	666	541	541	541	0	NR 	 			
+Tommy La Stella	ATL	2B	667	544	544	544	0	NR 	 			
+Wade Davis	KC	SP	RP	668	545	545	545	0	NR 	 		
+Jose Lobaton	WSH	C	669	548	548	548	0	NR 	 			
+Delmon Young	FA	RF	DH	LF	670	550	595	572.5	22.5	NR 	 	
+Jordan Danks	CWS	CF	RF	671	551	551	551	0	NR 	 		
+Kevin Pillar	TOR	OF	672	553	553	553	0	NR 	 			
+Chia-Jen Lo	HOU	RP	673	554	554	554	0	NR 	 			
+Sean Rodriguez	TB	1B	LF	RF	674	557	557	557	0	NR 	 	
+Jason Giambi	FA	1B	DH	675	558	558	558	0	NR 	 		
+Donovan Solano	MIA	2B	676	559	573	566	7	NR 	 			
+David Ross	BOS	C	677	559	570	564.5	5.5	NR 	 			
+Michael McKenry	FA	C	678	560	560	560	0	NR 	 			
+Mike Adams	PHI	RP	679	561	561	561	0	NR 	 			
+Brandon Workman	BOS	P	680	562	562	562	0	NR 	 			
+Derek Dietrich	MIA	2B	681	564	564	564	0	NR 	 			
+Erik Kratz	TOR	C	682	567	595	581	14	NR 	 			
+Aaron Hicks	MIN	CF	LF	683	569	575	572	3	435	 		
+Vernon Wells	FA	LF	CF	RF	DH	684	569	569	569	0	NR 	 
+Christian Bethancourt	ATL	C	685	570	570	570	0	NR 	 			
+Chris Getz	TOR	2B	686	571	571	571	0	NR 	 			
+Willie Bloomquist	SEA	2B	LF	SS	687	573	573	573	0	NR 	 	
+Aaron Crow	KC	RP	688	574	620	597	23	NR 	 			
+Erik Bedard	FA	SP	RP	689	576	587	581.5	5.5	NR 	 		
+Jonathan Pettibone	PHI	SP	690	578	578	578	0	NR 	 			
+Francisco Lindor	CLE	SS	691	580	580	580	0	NR 	 			
+Don Kelly	DET	3B	CF	LF	RF	692	580	580	580	0	NR 	 
+Gregor Blanco	SF	CF	LF	693	581	581	581	0	NR 	 		
+Santiago Casilla	SF	RP	694	582	582	582	0	NR 	 			
+Daisuke Matsuzaka	NYM	SP	695	584	584	584	0	NR 	 			
+Tyler Moore	WSH	1B	LF	RF	696	585	585	585	0	NR 	 	
+Martin Maldonado	MIL	1B	C	697	590	590	590	0	NR 	 		
+Cliff Pennington	ARI	2B	SS	698	593	593	593	0	NR 	 		
+Chris Withrow	LAD	RP	699	594	594	594	0	NR 	 			
+Leury Garcia	CWS	2B	700	596	596	596	0	NR 	 			
+Carter Capps	MIA	RP	701	597	597	597	0	NR 	 			
+Nick Punto	OAK	2B	3B	SS	702	599	639	619	20	NR 	 	
+Elliot Johnson	FA	2B	SS	703	600	600	600	0	NR 	 		
+Jose Molina	TB	C	704	601	657	629	28	NR 	 			
+Chris Perez	LAD	RP	705	603	603	603	0	316	 			
+Andre Rienzo	CWS	SP	706	603	603	603	0	NR 	 			
+Jeff Baker	MIA	1B	3B	LF	RF	707	604	623	613.5	9.5	NR 	 
+Daniel Hudson	FA	SP	708	605	605	605	0	NR 	 			
+Ryan Madson	FA	RP	709	606	606	606	0	NR 	 			
+Seth Maness	STL	RP	710	611	611	611	0	NR 	 			
+Jordan Lyles	COL	SP	711	612	612	612	0	NR 	 			
+George Kontos	SF	RP	712	612	612	612	0	NR 	 			
+Andrew Heaney	MIA	SP	713	613	613	613	0	504	 			
+Brandon Barnes	COL	CF	RF	714	614	614	614	0	NR 	 		
+Josh Tomlin	CLE	RP	715	614	614	614	0	NR 	 			
+B.J. Rosenberg	PHI	RP	716	617	617	617	0	NR 	 			
+Alexander Colome	TB	SP	717	618	618	618	0	NR 	 			
+Kevin Frandsen	PHI	1B	2B	718	618	618	618	0	NR 	 		
+Jamey Carroll	FA	2B	3B	719	620	620	620	0	NR 	 		
+Steve Pearce	BAL	LF	DH	720	621	621	621	0	NR 	 		
+Aaron Harang	FA	SP	721	622	622	622	0	NR 	 			
+Tim Federowicz	LAD	C	722	625	625	625	0	NR 	 			
+Jayson Nix	FA	2B	3B	SS	LF	723	626	626	626	0	NR 	 
+Adam Rosales	TEX	2B	SS	724	627	627	627	0	NR 	 		
+George Kottaras	CHC	C	725	628	628	628	0	NR 	 			
+Eduardo Escobar	MIN	2B	3B	SS	726	630	630	630	0	NR 	 	
+Johan Santana	FA	SP	727	633	633	633	0	NR 	 			
+Justin Turner	FA	1B	2B	3B	SS	728	634	634	634	0	NR 	 
+Jake Arrieta	CHC	SP	729	636	636	636	0	437	 			
+Jonathan Herrera	BOS	2B	SS	730	637	637	637	0	NR 	 		
+Conor Gillaspie	CWS	1B	3B	731	641	641	641	0	NR 	 		
+Addison Russell	OAK	SS	732	642	642	642	0	NR 	 			
+Brandon Maurer	SEA	SP	RP	733	643	643	643	0	NR 	 		
+Donnie Murphy	CHC	3B	734	644	644	644	0	NR 	 			
+Brayan Pena	CIN	C	735	645	645	645	0	NR 	 			
+Miguel Sano	MIN	3B	SS	736	646	646	646	0	323	 		
+Alex White	HOU	SP	737	647	647	647	0	NR 	 			
+Kris Bryant	CHC	3B	738	649	649	649	0	331	 			
+Alexi Casilla	FA	2B	739	651	651	651	0	NR 	 			
+Joe Saunders	FA	SP	740	654	654	654	0	NR 	 			
+Garin Cecchini	BOS	3B	741	655	655	655	0	NR 	 			
+Rougned Odor	TEX	2B	742	656	656	656	0	NR 	 			
