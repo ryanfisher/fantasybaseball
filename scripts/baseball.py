@@ -2,6 +2,9 @@ import csv
 
 DEFAULT_TEAMLIST = '../teamdata/2014/KeeperList.csv'
 DEFAULT_PROJECTIONS = '../projections/2014/FanGraphsBatters.csv'
+DEFAULT_PITCHER_PROJECTIONS = 'FanGraphsPitcherProjections.csv'
+DEFAULT_FARMLIST = 'FarmList.csv'
+DEFAULT_DRAFTEDLIST = 'DraftedList.csv'
 
 class Player:
     def __init__(self, **kwargs):
@@ -21,11 +24,20 @@ class FantasyLeague:
         self.csv = kwargs.get('csv', DEFAULT_TEAMLIST)
         if self.teams == {}: self.process_csv()
 
-    def process_csv(self):
-        with open(self.csv, 'rb') as csvfile:
-            rows = [row for row in csv.reader(csvfile, delimiter='\t')]
-        for team in range(10):
-            self.teams[rows[0][team]] = [row[team] for row in rows][1:]
+    def process_csv(self, csv_path=None):
+        if not csv_path: csv_path = self.csv
+        with open(csv_path, 'rb') as csvfile:
+            csv_rows = [row for row in csv.reader(csvfile, delimiter='\t')]
+        self.add_players(csv_rows)
+
+    def add_players(self, csv_rows):
+        for col in range(len(csv_rows[0])):
+            team = csv_rows[0][col]
+            players = [row[col] for row in csv_rows[1:] if row[col]]
+            try:
+                self.teams[team].extend(players)
+            except KeyError:
+                self.teams[team] = players
 
     def stat_list_for(self, team, stat):
         p = Projections()
@@ -62,7 +74,6 @@ class LeagueRankings:
             teams_dict = self.update_team_ranks(teams_dict, self.sorted_stat(avgs, stat))
         return sorted([(teams_dict[manager], manager) for manager in teams_dict])
 
-
 class Projections:
     def __init__(self, **kwargs):
         self.csv = kwargs.get('csv', DEFAULT_PROJECTIONS)
@@ -84,3 +95,56 @@ class Projections:
 
     def for_player(self, player):
         return self.projections[player]
+
+class RankingsDisplay:
+    def __init__(self):
+        self.players_taken = []
+        self.rankings = self.process_fantasy_rankings()
+        self.update_taken()
+
+    def update_taken(self):
+        league = FantasyLeague()
+        league.process_csv(DEFAULT_FARMLIST)
+        league.process_csv(DEFAULT_DRAFTEDLIST)
+        taken = []
+        for team in league.teams: taken.extend(league.teams[team])
+        self.players_taken = taken
+
+    def process_fantasy_rankings(self):
+        rankings = []
+        with open('fantasy_rankings.csv', 'rb') as csvfile:
+            rankings_reader = csv.reader(csvfile, delimiter='\t')
+            rows = []
+            for row in rankings_reader:
+                rankings.append(row[0])
+        return rankings[1:]
+
+    def to_html(self, filename='rankings.html'):
+        f = open(filename, 'w')
+        f.write('<ol>\n')
+        self.update_taken()
+        projections = Projections()
+        pitcher_projections = Projections(csv=DEFAULT_PITCHER_PROJECTIONS)
+        count = 0
+        for player in self.rankings:
+            f.write('<li')
+            if player in self.players_taken:
+                count+=1
+                f.write(' style="text-decoration: line-through; color: #666;')
+            else:
+                f.write(' style="font-weight: bold;')
+            f.write('"><span style="width: 300px; display: inline-block; text-decoration: inherit;">'+player+'</span>')
+            f.write('<span style="width: 100px; display: inline-block;">')
+            if projections.exists(player): f.write(projections.for_player(player)['OPS'])
+            f.write("</span>")
+            f.write('<span style="width: 100px; display inline-block;">')
+            if pitcher_projections.exists(player):
+                f.write(pitcher_projections.for_player(player)['WHIP'])
+            f.write("</span>")
+            f.write('</li>\n')
+        f.write('</ol>')
+        f.close()
+        print count
+
+if __name__ == '__main__':
+    RankingsDisplay().to_html()
