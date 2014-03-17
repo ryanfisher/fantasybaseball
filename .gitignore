@@ -40,3 +40,5 @@ scripts/rankings.html
 
 # Vim files
 *.swp
+
+*.csv#

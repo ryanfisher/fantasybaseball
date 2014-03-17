@@ -2,9 +2,10 @@ import csv
 
 DEFAULT_TEAMLIST = '../teamdata/2014/KeeperList.csv'
 DEFAULT_PROJECTIONS = '../projections/2014/FanGraphsBatters.csv'
-DEFAULT_PITCHER_PROJECTIONS = 'FanGraphsPitcherProjections.csv'
-DEFAULT_FARMLIST = 'FarmList.csv'
-DEFAULT_DRAFTEDLIST = 'DraftedList.csv'
+DEFAULT_PITCHER_PROJECTIONS = '../projections/2014/FanGraphsPitchers.csv'
+DEFAULT_FARMLIST = '../teamdata/2014/FarmList.csv'
+DEFAULT_DRAFTEDLIST = '../teamdata/2014/DraftedList.csv'
+DEFAULT_RANKINGS = 'fantasy_rankings.csv'
 
 class Player:
     def __init__(self, **kwargs):
@@ -112,7 +113,7 @@ class RankingsDisplay:
 
     def process_fantasy_rankings(self):
         rankings = []
-        with open('fantasy_rankings.csv', 'rb') as csvfile:
+        with open(DEFAULT_RANKINGS, 'rb') as csvfile:
             rankings_reader = csv.reader(csvfile, delimiter='\t')
             rows = []
             for row in rankings_reader:
