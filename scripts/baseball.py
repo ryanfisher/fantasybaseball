@@ -149,3 +149,6 @@ class RankingsDisplay:
 
 if __name__ == '__main__':
     RankingsDisplay().to_html()
+    league = FantasyLeague()
+    rankings = LeagueRankings()
+    print(rankings.compute_ranks(league))
