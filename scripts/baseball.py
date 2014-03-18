@@ -1,6 +1,6 @@
 import csv
 
-DEFAULT_TEAMLIST = '../teamdata/2014/KeeperList.csv'
+DEFAULT_TEAMLIST = '../teamdata/2014/KeeperListPredicted.csv'
 DEFAULT_PROJECTIONS = '../projections/2014/FanGraphsBatters.csv'
 DEFAULT_PITCHER_PROJECTIONS = '../projections/2014/FanGraphsPitchers.csv'
 DEFAULT_FARMLIST = '../teamdata/2014/FarmList.csv'
