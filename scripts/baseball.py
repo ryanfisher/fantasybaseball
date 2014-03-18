@@ -96,12 +96,42 @@ class LeagueRankings:
             team_values[manager] += n
         return team_values
 
-    def compute_ranks(self, league):
+    def print_stats(self, stat, sorted_stats, reverse=True):
+        print "\n"+stat
+        stats = list(sorted_stats)
+        if reverse:
+            stats.reverse()
+        for team in stats:
+            print team[1]+': '+str(team[0])
+
+    def compute_ranks(self, league, batters=True, pitchers=True):
         avgs = league.averages()
         teams_dict = {manager: 0 for manager in avgs}
-        for stat in ['HR','AVG','R','RBI','OPS','SB']:
-            teams_dict = self.update_team_ranks(teams_dict, self.sorted_stat(avgs, stat))
-        return sorted([(teams_dict[manager], manager) for manager in teams_dict])
+        if batters:
+            for stat in ['HR','AVG','R','RBI','OPS','SB']:
+                sorted_stats = self.sorted_stat(avgs, stat)
+                self.print_stats(stat, sorted_stats)
+                teams_dict = self.update_team_ranks(teams_dict, sorted_stats)
+        if pitchers:
+            for stat in ['W','K/9']:
+                sorted_stats = self.sorted_stat(avgs, stat)
+                self.print_stats(stat, sorted_stats)
+                teams_dict = self.update_team_ranks(teams_dict, sorted_stats)
+            for stat in ['ERA','WHIP','L']:
+                sorted_stat = self.sorted_stat(avgs, stat)
+                sorted_stat.reverse()
+                self.print_stats(stat, sorted_stat)
+                teams_dict = self.update_team_ranks(teams_dict, sorted_stat)
+        self.rankings = sorted([(teams_dict[manager], manager) for manager in teams_dict])
+        return self.rankings
+
+    def __repr__(self):
+        rankings = list(self.rankings)
+        rankings.reverse()
+        rankings_formatted = ''
+        for team in rankings:
+            rankings_formatted += team[1]+": "+str(team[0])+"\n"
+        return rankings_formatted
 
 class Projections:
     def __init__(self, **kwargs):
@@ -155,6 +185,7 @@ class RankingsDisplay:
         projections = Projections()
         pitcher_projections = Projections(csv=DEFAULT_PITCHER_PROJECTIONS)
         count = 0
+        print len(self.players_taken)
         for player in self.rankings:
             f.write('<li')
             if player in self.players_taken:
@@ -178,5 +209,9 @@ class RankingsDisplay:
 if __name__ == '__main__':
     RankingsDisplay().to_html()
     league = FantasyLeague()
+    # league.process_csv(DEFAULT_FARMLIST)
+    # league.process_csv(DEFAULT_DRAFTEDLIST)
     rankings = LeagueRankings()
-    print(rankings.compute_ranks(league))
+    rankings.compute_ranks(league, pitchers=False)
+    print "\n\nOVERALL STANDINGS"
+    print(rankings)
